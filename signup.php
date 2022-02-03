@@ -4,7 +4,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -13,21 +13,21 @@
     <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <title>Ikeouf - Subscription form</title>
+    <title>Ikeouf - Inscrivez-vous et créez votre compte client</title>
 </head>
 
 <body>
     <main>
-        <h1>Create your personnal account</h1>
+        <h1>Créez votre compte client</h1>
         <h2></h2>
         <form>
-            <label for="name">Name :</label><br>
-            <input type="text" id="name" placeholder="John Doe" name="name"><br>
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" placeholder="Jacques Martin" name="nom"><br>
             <label for="email">Email :</label><br>
-            <input type="email" id="email" placeholder="johndoe@test.com" name="email"><br>
-            <label for="password">Password :</label><br>
+            <input type="email" id="email" placeholder="jacquesmartin@test.com" name="email"><br>
+            <label for="password">Mot de passe :</label><br>
             <input type="password" id="password" placeholder="********" name="password"><br>
-            <label>Choose a password between 6 and 12 characters</label>
+            <label>Choisissez un mot de passe entre 6 et 12 caractères</label>
         </form>
     </main>
 </body>
