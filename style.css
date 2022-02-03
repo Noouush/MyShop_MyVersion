@@ -1,0 +1,16 @@
+body {
+    background: #f1f1f1;
+    max-width: 100%;
+}
+
+main {
+    background-color: aquamarine;
+    width: 600px;
+    
+}
+
+form {
+    background-color: white;
+    border: white 1px solid;
+    border-radius: 24px;
+}
