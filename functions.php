@@ -1,5 +1,5 @@
 <?php 
-
+require('env.php');
 /* CHECK SI LE PSEUDO EST UTILISÉ */
 
 function check_username($username) {
