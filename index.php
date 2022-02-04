@@ -45,6 +45,7 @@
   <h1>Magasin de meubles et décorations</h1>
   <h2>Bienvenue sur ikeouf !</h2>
   <p>Site en construction</p>
+  <a href="signup.php">Accéder à l'espace inscription</a>
 
 </body>
 

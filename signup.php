@@ -26,8 +26,6 @@ session_start();
         </div>
     </nav>
     <!-- /NAVBAR -->
-
-    <main>
         <div class="container">
         <h1>Créez votre compte client</h1>
         <h2></h2>
@@ -44,7 +42,6 @@ session_start();
             <label>Les mots de passe doivent correspondre</label><br>
         </form>
         </div>
-    </main>
 </body>
 
 </html>

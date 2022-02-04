@@ -14,6 +14,6 @@
 </head>
 <body>
 <h1>Espace administration du site Ikeouf</h1>
-    
+    <p>Accessible uniquement aux administrateurs</p>
 </body>
 </html>
