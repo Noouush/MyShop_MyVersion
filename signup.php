@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 
 ?>
 
@@ -17,18 +17,33 @@
 </head>
 
 <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.php">
+                <img src="assets/Logo.png" alt="Logo Ikeouf" width="50" height="50">
+            </a>
+        </div>
+    </nav>
+    <!-- /NAVBAR -->
+
     <main>
+        <div class="container">
         <h1>Créez votre compte client</h1>
         <h2></h2>
         <form>
-            <label for="nom">Nom :</label><br>
-            <input type="text" id="nom" placeholder="Jacques Martin" name="nom"><br>
+            <label for="nom">Pseudo :</label><br>
+            <input type="text" id="pseudo" placeholder="JacquesMartin59" name="pseudo"><br>
             <label for="email">Email :</label><br>
             <input type="email" id="email" placeholder="jacquesmartin@test.com" name="email"><br>
             <label for="password">Mot de passe :</label><br>
-            <input type="password" id="password" placeholder="********" name="password"><br>
-            <label>Choisissez un mot de passe entre 6 et 12 caractères</label>
+            <input type="password" id="password" placeholder="******" name="password"><br>
+            <label>Choisissez un mot de passe de plus de 6 caractères</label><br>
+            <label for="password_confirmation">Confirmez votre mot de passe :</label><br>
+            <input type="password" id="password_confirmation" placeholder="******" name="password_confirmation"><br>
+            <label>Les mots de passe doivent correspondre</label><br>
         </form>
+        </div>
     </main>
 </body>
 
